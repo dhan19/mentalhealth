@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <title>Tables</title>
+
+    <style>
+        #tables{
+            padding-top: 30px;
+            padding-bottom:50px
+        }
+        table, th, td {
+          border: 2px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 5px;
+        }
+        th {
+          text-align: left;
+        }
+        .table-1 tr td:first-child {
+            width: 26%;
+        }
+        .table-2 tr td:first-child {
+            width:30%;
+        }
+        td{
+          text-align:center;
+        }
+        td:first-child{
+          text-align:left;
+        }
+        .table-2data {
+          padding: 10px;
+          display: flex;
+          justify-content: space-around;
+          font-weight: 600;
+      }
+      .table-filed {
+          display: flex;
+          justify-content: space-evenly;
+      }
+      .table-1 tr td:first-child {
+          width: 29%;
+      }
+      .table-3data span {
+    font-weight: 600;
+}
+.table-3data {
+          padding: 10px;
+          display: flex;
+          justify-content: space-around;
+          font-weight: 600;
+      }
+      .table-filed span:first-child {
+          width: 21%;
+          text-align:left;
+      }
+      .table-4data {
+    margin-left: 26px;
+}
+.secondtable{
+  margin-top: 32px;
+}
+.third-table{
+  margin-top: 32px;
+}
+tr {
+    height: 30px;
+}
+.form-group.table-inputfiled {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+}
+label {
+    margin-left: 20px;
+}
+input.form-control {
+    border: 0px;
+    border-bottom: 1px solid #ced4da;
+    margin-left: 10px;
+}
+    </style>
+  </head>
+  <body>
+   
+    <section id="tables">
+        <div class="container-fluid">
+
+
+          <div class="row"> 
+            <div class="col-md-12">
+              <div class="form-group table-inputfiled">
+                <label>Name</label>
+                <input type="text" class="form-control" >
+                <label>Date</label>
+                <input type="text" class="form-control" >
+              </div>
+            </div>
+          </div>
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <div class="table-1">
+                        <table style="width:100%">
+                          <tr>
+                            <th>Urges to:</th>
+                            <td>Mon</td>
+                            <td>Tues</td>
+                            <td>Wed</td>
+                            <td>Thur</td>
+                            <td>Fri</td>
+                            <td>Sat</td>
+                            <td>Sun</td>
+                          </tr>
+                            <tr>
+                              <td >Kill myself</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            
+                            <tr>
+                              
+                              <td>Hurt myself</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>Hurt Others </td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                                <td>Use Alcohol or drugs</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                        </table>
+                    </div>
+                    <div class="table-3data"> 
+                      <span>0.No Urge</span>
+                      <span>1.A little</span>
+                      <span>2.Moderate Amount</span>
+                      <span>3.Strong</span>
+                      <span>4.Very Strong</span>
+                      </div>
+                    <div class="table-4data"> 
+                      <span><i>
+                        Place an * next to those lines when you acted on your age
+                      </i></span>
+                     
+                    </div>
+
+                <div class="secondtable">
+                <div class="table-1">
+                  <table style="width:100%">
+                    <tr border="0" style="border:0px;">
+                      <th>Urges to:</th>
+                      <td>Mon</td>
+                      <td>Tues</td>
+                      <td>Wed</td>
+                      <td>Thur</td>
+                      <td>Fri</td>
+                      <td>Sat</td>
+                      <td>Sun</td>
+                    </tr>
+                      <tr>
+                        <td>Good,Happy</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Anxious,Tense</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Miserable</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                          <td>Angry</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Depressed</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Hopeful</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Empty,Alone</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Embrassed</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Physically bad</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                  </table>
+                </div>
+                <div class="table-3data"> 
+                <span>0.No Feeling</span>
+                <span>1.A little</span>
+                <span>2.Moderate Amount</span>
+                <span>3.Strong</span>
+                <span>4.Very Strong</span>
+                </div>
+
+                </div>
+                
+                <div class="third-table">
+                  <div class="table-1">
+                    <table style="width:100%">
+                      <tr>
+                        <th>Goals</th>
+                        <td>Mon</td>
+                        <td>Tues</td>
+                        <td>Wed</td>
+                        <td>Thur</td>
+                        <td>Fri</td>
+                        <td>Sat</td>
+                        <td>Sun</td>
+                      </tr>
+                        
+                        <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table-3data"> 
+                  <span>0.No Urge</span>
+                  <span>1.A little</span>
+                  <span>2.Moderate Amount</span>
+                  <span>3.Strong</span>
+                  <span>4.Very Strong</span>
+                  </div>
+                </div>
+                       
+                </div>
+                <div class="col-md-6">
+                  <div class="table-2">
+                    <table style="width:100%">
+                      <tr>
+                        <th>MINDFULNESS</th>
+                        <td>Mon</td>
+                        <td>Tues</td>
+                        <td>Wed</td>
+                        <td>Thur</td>
+                        <td>Fri</td>
+                        <td>Sat</td>
+                        <td>Sun</td>
+                      </tr>
+                        <tr>
+                          <td>MINDFULNESS</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Observe</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Participate</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Nonjudgemental</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>One thing ata a time</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Be effective</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                    
+                      <tr>
+                        <th>INTERPERSONAL</th>
+                        <td>Mon</td>
+                        <td>Tues</td>
+                        <td>Wed</td>
+                        <td>Thur</td>
+                        <td>Fri</td>
+                        <td>Sat</td>
+                        <td>Sun</td>
+                      </tr>
+                        <tr>
+                          <td>Dearman</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Give</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Fast</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th>EMOTION REGULATION</th>
+                          <td>Mon</td>
+                          <td>Tues</td>
+                          <td>Wed</td>
+                          <td>Thur</td>
+                          <td>Fri</td>
+                          <td>Sat</td>
+                          <td>Sun</td>
+                        </tr>
+                          <tr>
+                            <td>Please</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>Build Mastery</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>Build positive experience</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>Oposite-to-emotion-action</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th>DISTRESS TOLERENCE</th>
+                            <td>Mon</td>
+                            <td>Tues</td>
+                            <td>Wed</td>
+                            <td>Thur</td>
+                            <td>Fri</td>
+                            <td>Sat</td>
+                            <td>Sun</td>
+                          </tr>
+                            <tr>
+                              <td>Wise mind distract</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>Self Soothie</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>Improve the moment</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>Pros and cons</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>Radical acceptence</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                      </table>
+
+                      <div class="table-2data"> 
+                        <span>0.Didn't think about</span>
+                        <span>1.Thought about it</span>
+                        <span>2.Actually Worked on</span>
+                      </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+  </body>
+</html>
